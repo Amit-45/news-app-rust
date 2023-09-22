@@ -33,7 +33,7 @@ const CYAN: Color32 = Color32::from_rgb(0, 255, 255);
 fn fetch_news(api_key: &str, articles: &mut Vec<NewsCardData>) {
     println!("API Key: {}", api_key);
     let BASE_URL = "https://newsapi.org/v2";
-    let api_key = "891402728e4140b3b6970f2fc97e9105";
+    let api_key = "API_KEY here";
     let url = format!("{}/top-headlines?country=us&apiKey={}", BASE_URL, api_key);
 
     println!("URL: {}", url);
